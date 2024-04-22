@@ -1,0 +1,12 @@
+version: '1'
+services:
+  zabbix_sync_to_statuspage:
+    container_name: Statuspage.io
+    image: 
+    volumes:
+    network_mode: "host"
+    restart: "always"
+
+volumes:
+    config:
+        driver: local

@@ -1,0 +1,14 @@
+---
+zabbix_root_service_id: ""
+updateDelay: 30000 
+
+sp_api_host: ""
+sp_api_key: ""
+sp_api_pageid: ""
+sp_allow_dangling_component_delete: False # Delete Components which exist on Statuspage but not Zabbix
+
+zbx_api_host: ""
+zbx_api_username: "" # Username that exists on the Zabbix instance. Must have read access to services & triggers.
+zbx_api_password: "" # Password for the user on the Zabbix instance.
+
+bail_fail_attempts: 4 # Number of failed connection attempts before this script bails. Put 0 to never bail
